@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+  .packagerow{
+    display: table;
+    border: 1px solid black;
+    width: 100px; /* it changes by screen size actually */
+    padding: 5px;
+    margin: 10px;
+  
+
+  }
+   
+  
+  .bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h2{
+    font-family: "Bungee Tint", sans-serif;
+
+  }
